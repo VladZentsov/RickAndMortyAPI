@@ -14,7 +14,7 @@ namespace BLL.Models
         public int Id { get; set; }
 
         /// <summary>
-        /// The name of the character.
+        /// The name of the person.
         /// </summary>
         public string Name { get; set; }
 

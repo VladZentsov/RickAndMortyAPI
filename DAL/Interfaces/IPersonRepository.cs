@@ -9,6 +9,10 @@ namespace DAL.Interfaces
 {
     public interface IPersonRepository: IRepository<Person>
     {
+        /// <summary>
+        /// Get all persons bu URL.
+        /// </summary>
+        /// <returns>Persons enumerable.</returns>
         public Task<IEnumerable<Person>> GetPersonsByURL(string personURL);
     }
 }
